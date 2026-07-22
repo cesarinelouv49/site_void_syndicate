@@ -8,7 +8,7 @@ Site vitrine statique, esthétique "dossier classifié" — ticker en direct, fi
 
 ## 🖥️ Aperçu
 
-Une seule page (`index.html`), scroll fluide entre 5 sections : hero, actualités, veille, services, équipe. Pas de framework, pas de build — HTML/CSS statique pur, pensé pour tourner n'importe où sans dépendance.
+Une seule page (`void-syndicate.html`), scroll fluide entre 5 sections : hero, actualités, veille, services, équipe. Pas de framework, pas de build — HTML/CSS statique pur, pensé pour tourner n'importe où sans dépendance.
 
 <img width="1823" height="935" alt="image" src="https://github.com/user-attachments/assets/6934524d-ff0a-4855-bcb3-9c612e15fade" />
 
@@ -18,7 +18,7 @@ Une seule page (`index.html`), scroll fluide entre 5 sections : hero, actualité
 
 ```
 .
-├── index.html      # structure et contenu de la page
+├── void-syndicate.html      # structure et contenu de la page
 ├── style.css       # design system complet (couleurs, typo, layout, animations)
 └── README.md
 ```
@@ -81,9 +81,9 @@ Aucune installation requise :
 
 ```bash
 # Option 1 — ouvrir directement
-open index.html        # macOS
-xdg-open index.html    # Linux
-start index.html       # Windows
+open void-syndicate.html        # macOS
+xdg-open void-syndicate.html    # Linux
+start void-syndicate.html       # Windows
 
 # Option 2 — via un serveur local (recommandé pour éviter les soucis de chemins relatifs)
 python3 -m http.server 8000
